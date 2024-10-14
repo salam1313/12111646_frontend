@@ -1,0 +1,74 @@
+/* Main dashboard layout */
+.dashboard-wrapper {
+    display: flex;
+    height: 100vh;
+    background-color: #f0f2f5;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #34495e;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.date-picker label {
+    margin-bottom: 10px;
+    display: block;
+    font-size: 14px;
+}
+
+.date-picker input {
+    padding: 8px;
+    width: 100%;
+    border: none;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.content-area {
+    flex: 1;
+    padding: 40px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.dashboard-title {
+    font-size: 32px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 40px;
+}
+
+.chart-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-around;
+}
+
+.sparkline-chart {
+    background: #fafafa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.total-visitors {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
